@@ -1,0 +1,14 @@
+Note
+
+Sito da cui prendere spunto per il sito: http://www.valtenna.it/
+
+Per ora esiste solo l'index. 
+Qui eliminerei tutte le parti con le sidebar e terrei solo quelle a larghezza piena.
+I testi e le immagini te li ho girati via mail.
+Tutte le pagine saranno fatte in html, quindi pensiamo a fare prima la struttura, poi le varie pagine
+(In particolare i cambiamenti di footer e header sono da moltiplicarsi per ogni pagina quindi attenzione).
+
+Sito  vecchio: http://www.lescatole.it oppure http://www.scatolemilano.com
+
+-----------------------------------------------------------------------------------------------------
+
