@@ -25,7 +25,8 @@
 	
 	function modificaSlider()
 	{
-		var immagini = ["A.jpg", "C.jpg"];
+	    var c = "images/slider/";
+		var immagini = [c + "A.jpg", c + "C.jpg"];
 		contatore++;
 		document.getElementById("header-wrapper").style.backgroundImage = 'url("' + immagini[contatore % immagini.length] + '")';
 	}
@@ -35,7 +36,7 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<div id="header-wrapper" style="background-image: url('A.jpg'); transition-duration: 2s; ">
+				<div id="header-wrapper" style="background-image: url('images/slider/A.jpg'); transition-duration: 2s; ">
 					<div id="header">
 
 						<!-- Logo -->
@@ -156,7 +157,7 @@
 											<header>
 												<h2>Packaging su misura... <strong>per il cliente</strong></h2>
 											</header>
-											<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+											<a class="image featured"><img src="images/pic04.jpg" alt="" /></a>
 											<p> Consapevoli di essere bravi nel nostro lavoro, produciamo packaging
 												di elevata qualità, originali, unici, ma soprattutto adatti al consumatore. <br>
 												Siamo capaci di capire cosa il cliente vuole, di conseguenza studiamo e progettiamo
@@ -172,7 +173,7 @@
 											<header>
 												<h2>La nostra sfida è.. <strong>proseguire dove gli altri si fermano</strong></h2>
 											</header>
-											<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+											<a href="pages/produzione.html" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
 											<h3>Come è possibile?</h3>
 											<p>Tutte le cartotecniche esistenti sul mercato sono in grado di proporvi astucci,
 												scatole fustellate o pieghevoli in cartoncini leggeri, ma non tutti i packaging possono
