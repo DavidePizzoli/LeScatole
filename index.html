@@ -18,14 +18,14 @@
 	<script>
 	var contatore = 0;
 	var N = 4000;
-	var aa = window.setInterval("modificaSlider()", N);
+	// var aa = window.setInterval("modificaSlider()", N);
 	var farbe = 1;
 
 	var i = 0;
 	
 	function modificaSlider()
 	{
-	    var c = "images/slider/";
+	    var c = "images/mainSlider/";
 		var immagini = [c + "A.jpg", c + "C.jpg"];
 		contatore++;
 		document.getElementById("header-wrapper").style.backgroundImage = 'url("' + immagini[contatore % immagini.length] + '")';
@@ -36,12 +36,12 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<div id="header-wrapper" style="background-image: url('images/slider/A.jpg'); transition-duration: 2s; ">
+				<div id="header-wrapper" style="background-image: url('images/mainSlider/C.jpg'); transition-duration: 2s; ">
 					<div id="header">
 
 						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">Le Scatole</a></h1><br>
-							<h3><strong>Packaging unici e originali adatti al cliente</strong></h3>
+							<h1 id="logo" style="color: white;"><a href="index.html">Le Scatole</a></h1><br>
+							<h3><strong style="color: white !important;">Packaging unici e originali adatti al cliente</strong></h3>
 
 
 						<!-- Nav -->
