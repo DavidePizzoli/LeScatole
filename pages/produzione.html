@@ -12,6 +12,8 @@
     <!--[if lte IE 8]>
     <script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="../assets/css/pyrohAndGemehStyle.css" />
+	<link rel="icon" type="image/png" href="../images/favicon.png" />
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
 </head>
@@ -30,22 +32,23 @@
 
 				<nav id="nav"  style="background-color: #222222 !important;">
 					<ul>
-						<li><a href="../index.html"><span>Home(Logo)</span></a></li>
+					<li><img src="../images/logo.jpg" class="mainLogo" /></li>
+					<li><a href="../index.html"><span>Home</span></a></li>
 						<li>
-							<a href="#"><span>Produzione</span></a>
+							<a href="produzione.html"><span>Produzione</span></a>
 							<ul>
-								<li><a href="pages/produzione.html">La nostra produzione</a></li>
+								<li><a href="produzione.html">La nostra produzione</a></li>
 								<li>
 									<a href="#">Catalogo</a>
 									<ul>
 										<li><a href="catalogo_standard.html">Catalogo Standard</a></li>
-										<li><a href="catalogo_esclusive.html">Catalogo Esclusive</a></li>
+										<li><a href="catalogo_Esclusive.html">Catalogo Exclusive</a></li>
 									</ul>
 								</li>
 								<li><a href="personalizzazioni.html">Personalizzazioni</a></li>
 							</ul>
 						</li>
-						<li><a href="photo.html"><span>Photo Gallery</span></a></li>
+						
 						<li>
 							<a href="chi_siamo.html"><span>Chi siamo</span></a>
 							<ul>
@@ -55,7 +58,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="pages/contatti.html"><span>Contatti</span></a>
+							<a href="contatti.html"><span>Contatti</span></a>
 						</li>
 						<li><a href="#"><span></span></a></li>
 					</ul>
@@ -63,16 +66,6 @@
 
 		</div>
 	</div>
-	<style>
-	.post { transition-duration: 0.4s; }
-	.post:hover { 
-		-webkit-transform: rotate(-20deg);
-		-moz-transform: rotate(-20deg);
-		-ms-transform: rotate(-20deg);
-		-o-transform: rotate(-20deg);
-		transform: rotate(-20deg);
-	}
-	</style>
 	<!-- Main -->
 	<div id="main-wrapper">
 		<div id="main" class="container">
@@ -86,7 +79,7 @@
 
 						<!-- Post -->
 							<article class="box post">
-								<p> Consapevoli di essere bravi nel nostro lavoro, produciamo packaging
+								<p>Consapevoli di essere bravi nel nostro lavoro, produciamo packaging
 									di elevata qualità, originali, unici, ma soprattutto adatti al consumatore. <br>
 									Siamo capaci di capire cosa il cliente vuole, di conseguenza studiamo e progettiamo
 									il lavoro insieme a loro; essendo produttori, possiamo apportare le modifiche che vogliamo,
@@ -109,26 +102,22 @@
 			<hr>
 			<br><br><br>
 			
-			<style>
-				.imageLink { border-radius: 10px; font-weight: bold; transition-duration: 0.2s; width: 100%; background-size: cover; background-position: center; font-size: 25px; color: white; line-height: 35px; padding: 120px 10%; text-align: center; }
-				.imageLink:hover { font-size: 30px; }
-				.banner { font-weight: bold; font-size: 35px; color: white !important; text-align: center; padding: 70px 0px !important; background-size: cover; background-position: center; background-attachment: fixed; }
-			</style>
-			
 			<div class="row">
 					
-					<div id="content" class="4u 12u(mobile)">
-							<a href="catalogo_standard.html"><article class="box post">
+					<div id="content" class="6u 12u(mobile)">
+							<a href="catalogo_standard.html"><article class="box post rotatingPost">
 								<div class="imageLink" style="background-image: url('../images/mainSlider/B.jpg');">Catalogo<br>Standard</div>
 							</article></a>
 					</div>
+					<!--
 					<div id="content" class="4u 12u(mobile)">
-							<a href="catalogo_esclusive.html"><article class="box post">
+							<a href="catalogo_Esclusive.html"><article class="box post rotatingPost">
 								<div class="imageLink" style="background-image: url('../images/mainSlider/C.jpg');">Catalogo<br>Exclusive</div>
 							</article></a>
 					</div>
-					<div id="content" class="4u 12u(mobile)">
-							<a href="personalizzazioni.html"><article class="box post">
+					-->
+					<div id="content" class="6u 12u(mobile)">
+							<a href="personalizzazioni.html"><article class="box post rotatingPost">
 								<div class="imageLink" style="background-image: url('../images/mainSlider/E.jpg');">Prodotti<br>Personalizzati</div>
 							</article></a>
 					</div>
@@ -136,8 +125,8 @@
 		</div>
 	</div>
 	
-	<!-- Main -->
-	<a href="#"><div class="banner" style="background-image: url('../images/mainSlider/F.jpg'); ">
+	<!-- MainBanner -->
+	<a href="chi_siamo.html"><div class="banner" style="background-image: url('../images/mainSlider/E.jpg'); ">
 		Scopri la nostra storia!
 	</div></a>
 	
@@ -145,67 +134,53 @@
     <div id="footer-wrapper">
 
         <div class="container">
-            <header>
-                <h2>Domande o consigli?  <strong>Contattaci</strong></h2>
-            </header>
+            <div class="row">
+                <div class="12u 12u(mobile)">
+					<h2>Domande o consigli?  <strong>Contattaci</strong></h2>
+				</div>
+            </div>
             <div class="row">
                 <div class="6u 12u(mobile)">
                     <section>
                         <form method="post" action="#">
                             <div class="row 50%">
                                 <div class="6u 12u(mobile)">
-                                    <input name="name" placeholder="Name" type="text" />
+                                    <input name="name" placeholder="Nome" type="text" />
                                 </div>
                                 <div class="6u 12u(mobile)">
-                                    <input name="email" placeholder="Email" type="text" />
+                                    <input name="email" placeholder="E-mail" type="text" />
+                                </div>
+                                <div class="12u 12u(mobile)">
+                                    <input name="subject" placeholder="Oggetto" type="text" />
                                 </div>
                             </div>
                             <div class="row 50%">
                                 <div class="12u">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Scrivere qui il messaggio..." style="resize: vertical; "></textarea>
                                 </div>
                             </div>
                             <div class="row 50%">
-                                <div class="12u">
-                                    <a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
+                                <div class="3u">
+                                </div>
+                                <div class="6u">
+                                    <a href="#" class="form-button-submit button icon fa-envelope" style="width: 100%; ">Invia</a>
                                 </div>
                             </div>
                         </form>
                     </section>
                 </div>
+				
                 <div class="6u 12u(mobile)">
                     <section>
-                        <div class="row">
-                            <ul class="icons">
-                                <li class="icon fa-home">
-                                    Via Volturno, 8<br />
-                                    Rozzano, MI - 20089<br />
-                                    Italy
-                                </li>
-                                <li class="icon fa-phone">
-                                    tel: 02.8394348<br />
-                                    fax: 02.8373328
-                                </li>
-                                <li class="icon fa-envelope">
-                                    info@lescatole.it
-                                </li>
-                            </ul>
-                            <div class="6u 12u(mobile)">
-                                <ul class="icons">
-                                    <li class="icon fa-twitter">
-                                        <a href="#">@untitled-tld</a>
-                                    </li>
-                                    <li class="icon fa-instagram">
-                                        <a href="#">instagram.com/untitled-tld</a>
-                                    </li>
-                                    <li class="icon fa-dribbble">
-                                        <a href="#">dribbble.com/untitled-tld</a>
-                                    </li>
-                                    <li class="icon fa-facebook">
-                                        <a href="#">facebook.com/untitled-tld</a>
-                                    </li>
-                                </ul>
-                            </div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.021423831135!2d9.16849031498676!3d45.38873864649751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c4ae023d8d3d%3A0x3fd18d8f57670e30!2sVia+Volturno%2C+8%2C+20089+Rozzano+MI!5e0!3m2!1sit!2sit!4v1533831479066" frameborder="0" style="border: 0px; width: 100%; margin: 0px 0px 20px 0px; height: 250px; " allowfullscreen></iframe>
+                        <div class="row contactList contactList1">
+                            Via Volturno 8, Rozzano(MI) - Cap 20089
+						</div>
+                        <div class="row contactList contactList2">
+                            Tel: 02.8394348 - Fax: 02.8373328
+						</div>
+                        <div class="row contactList contactList1">
+                            Mail: info@lescatole.it
                         </div>
                     </section>
                 </div>
@@ -213,7 +188,7 @@
         </div>
         <div id="copyright" class="container">
             <ul class="links">
-                <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>&copy; Strongly Typed. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>
     </div>

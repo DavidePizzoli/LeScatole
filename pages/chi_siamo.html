@@ -12,39 +12,43 @@
     <!--[if lte IE 8]>
     <script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="../assets/css/pyrohAndGemehStyle.css" />
+	<link rel="icon" type="image/png" href="../images/favicon.png" />
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
 </head>
 <style>
-#features-wrapper { padding: 10px 0px !important; }
-hr { background-color: white; }
+	#features-wrapper { padding: 10px 0px !important; }
 </style>
 <body class="homepage">
 <div id="page-wrapper">
 
     <!-- Header -->
-    <div id="header-wrapper" style="height: 68px;">
+    <div id="header-wrapper" style="background-image: url('../images/mainSlider/A.jpg'); ">
         <div id="header">
-
+			<!-- Logo -->
+			<h1 id="logo" style="color: white;">Chi siamo</h1><br>
+				
             <!-- Nav -->
             <nav id="nav" style="background-color: #222222 !important; ">
                 <ul>
-                    <li><a href="../index.html"><span style="text-decoration: underline">Home(logo)</span></a></li>
+					<li><img src="../images/logo.jpg" class="mainLogo" /></li>
+					<li><a href="../index.html"><span>Home</span></a></li>
                     <li>
-                        <a href="#"><span>Produzione</span></a>
+                        <a href="produzione.html"><span>Produzione</span></a>
                         <ul>
                             <li><a href="produzione.html">La nostra produzione</a></li>
                             <li>
                                 <a href="#">Catalogo</a>
                                 <ul>
                                     <li><a href="catalogo_standard.html">Catalogo Standard</a></li>
-                                    <li><a href="catalogo_esclusive.html">Catalogo Esclusive</a></li>
+                                    <li><a href="catalogo_Esclusive.html">Catalogo Exclusive</a></li>
                                 </ul>
                             </li>
                             <li><a href="personalizzazioni.html">Personalizzazioni</a></li>
                         </ul>
                     </li>
-                    <li><a href="photo.html"><span>Photo Gallery</span></a></li>
+                    
                     <li>
                         <a href="chi_siamo.html"><span>Chi siamo</span></a>
                         <ul>
@@ -204,67 +208,53 @@ hr { background-color: white; }
     <div id="footer-wrapper">
 
         <div class="container">
-            <header>
-                <h2>Domande o consigli?  <strong>Contattaci</strong></h2>
-            </header>
+            <div class="row">
+                <div class="12u 12u(mobile)">
+					<h2>Domande o consigli?  <strong>Contattaci</strong></h2>
+				</div>
+            </div>
             <div class="row">
                 <div class="6u 12u(mobile)">
                     <section>
                         <form method="post" action="#">
                             <div class="row 50%">
                                 <div class="6u 12u(mobile)">
-                                    <input name="name" placeholder="Name" type="text" />
+                                    <input name="name" placeholder="Nome" type="text" />
                                 </div>
                                 <div class="6u 12u(mobile)">
-                                    <input name="email" placeholder="Email" type="text" />
+                                    <input name="email" placeholder="E-mail" type="text" />
+                                </div>
+                                <div class="12u 12u(mobile)">
+                                    <input name="subject" placeholder="Oggetto" type="text" />
                                 </div>
                             </div>
                             <div class="row 50%">
                                 <div class="12u">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Scrivere qui il messaggio..." style="resize: vertical; "></textarea>
                                 </div>
                             </div>
                             <div class="row 50%">
-                                <div class="12u">
-                                    <a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
+                                <div class="3u">
+                                </div>
+                                <div class="6u">
+                                    <a href="#" class="form-button-submit button icon fa-envelope" style="width: 100%; ">Invia</a>
                                 </div>
                             </div>
                         </form>
                     </section>
                 </div>
+				
                 <div class="6u 12u(mobile)">
                     <section>
-                        <div class="row">
-                            <ul class="icons" >
-                                <li class="icon fa-home">
-                                    Via Volturno, 8<br />
-                                    Rozzano, MI - 20089<br />
-                                    Italy
-                                </li>
-                                <li class="icon fa-phone">
-                                    tel: 02.8394348<br />
-                                    fax: 02.8373328
-                                </li>
-                                <li class="icon fa-envelope">
-                                    info@lescatole.it
-                                </li>
-                            </ul>
-                            <div class="6u 12u(mobile)">
-                                <ul class="icons">
-                                    <li class="icon fa-twitter">
-                                        <a href="#">@untitled-tld</a>
-                                    </li>
-                                    <li class="icon fa-instagram">
-                                        <a href="#">instagram.com/untitled-tld</a>
-                                    </li>
-                                    <li class="icon fa-dribbble">
-                                        <a href="#">dribbble.com/untitled-tld</a>
-                                    </li>
-                                    <li class="icon fa-facebook">
-                                        <a href="#">facebook.com/untitled-tld</a>
-                                    </li>
-                                </ul>
-                            </div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.021423831135!2d9.16849031498676!3d45.38873864649751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c4ae023d8d3d%3A0x3fd18d8f57670e30!2sVia+Volturno%2C+8%2C+20089+Rozzano+MI!5e0!3m2!1sit!2sit!4v1533831479066" frameborder="0" style="border: 0px; width: 100%; margin: 0px 0px 20px 0px; height: 250px; " allowfullscreen></iframe>
+                        <div class="row contactList contactList1">
+                            Via Volturno 8, Rozzano(MI) - Cap 20089
+						</div>
+                        <div class="row contactList contactList2">
+                            Tel: 02.8394348 - Fax: 02.8373328
+						</div>
+                        <div class="row contactList contactList1">
+                            Mail: info@lescatole.it
                         </div>
                     </section>
                 </div>
@@ -272,7 +262,7 @@ hr { background-color: white; }
         </div>
         <div id="copyright" class="container">
             <ul class="links">
-                <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>&copy; Strongly Typed. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>
     </div>
