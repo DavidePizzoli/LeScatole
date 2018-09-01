@@ -241,31 +241,25 @@
             <div class="row">
                 <div class="6u 12u(mobile)">
                     <section>
-                        <form method="post" action="#">
-                            <div class="row 50%">
-                                <div class="6u 12u(mobile)">
-                                    <input name="name" placeholder="Nome" type="text" />
-                                </div>
-                                <div class="6u 12u(mobile)">
-                                    <input name="email" placeholder="E-mail" type="text" />
-                                </div>
-                                <div class="12u 12u(mobile)">
-                                    <input name="subject" placeholder="Oggetto" type="text" />
-                                </div>
-                            </div>
-                            <div class="row 50%">
-                                <div class="12u">
-                                    <textarea name="message" placeholder="Scrivere qui il messaggio..." style="resize: vertical; "></textarea>
-                                </div>
-                            </div>
-                            <div class="row 50%">
-                                <div class="3u">
-                                </div>
-                                <div class="6u">
-                                    <a href="#" class="form-button-submit button icon fa-envelope" style="width: 100%; ">Invia</a>
-                                </div>
-                            </div>
-                        </form>
+						<form method="POST" id="contactForm" name="mailform" enctype="text/plain">
+							<div class="row 50%">
+								<div class="12u 12u(mobile)">
+									<input id="subject" style="color: black;" placeholder="Oggetto" type="text"  />
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="12u">
+									<textarea id="corpo"  placeholder="Scrivere qui il messaggio..."  style="resize: vertical; color: black; "></textarea>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="3u">
+								</div>
+								<div class="6u">
+									<a onclick="invia()" class="form-button-submit button icon fa-envelope" style="width: 100%; ">Invia</a>
+								</div>
+							</div>
+						</form>
                     </section>
                 </div>
 				
@@ -297,6 +291,22 @@
 </div>
 
 <!-- Scripts -->
+<script type="text/javascript">
+    function invia() {
+        var codice = "mailto:info@lescatole.it";
+        var subject = document.getElementById("subject").value;
+        var corpo = document.getElementById("corpo").value;
+
+        if(subject != "") {
+            codice +="?subject=" + subject;
+        }
+        if(corpo != "") {
+            codice +="&body=" + corpo;
+        }
+
+        location.href = codice;
+    }
+</script>
 <script src="../assets/js/jquery.min.js"></script>
 <script src="../assets/js/jquery.dropotron.min.js"></script>
 <script src="../assets/js/skel.min.js"></script>

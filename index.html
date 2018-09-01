@@ -263,25 +263,22 @@
 					<div class="row">
 						<div class="6u 12u(mobile)">
 							<section>
-								<form method="POST" id="contactForm" action="mailto:davidepizzoli1234@gmail.com" enctype="text/plain">
+								<form method="POST" id="contactForm" name="mailform" enctype="text/plain">
 									<div class="row 50%">
 										<div class="12u 12u(mobile)">
-											<input name="name" placeholder="Nome" type="text" />
-										</div>
-										<div class="12u 12u(mobile)">
-											<input name="subject" style="color: black;" placeholder="Oggetto" type="text" />
+											<input id="subject" style="color: black;" placeholder="Oggetto" type="text"  />
 										</div>
 									</div>
 									<div class="row 50%">
 										<div class="12u">
-											<textarea name="message"  placeholder="Scrivere qui il messaggio..." style="resize: vertical; color: black; "></textarea>
+											<textarea id="corpo"  placeholder="Scrivere qui il messaggio..."  style="resize: vertical; color: black; "></textarea>
 										</div>
 									</div>
 									<div class="row 50%">
 										<div class="3u">
 										</div>
 										<div class="6u">
-											<a onclick="document.getElementById('contactForm').submit();" class="form-button-submit button icon fa-envelope" style="width: 100%; ">Invia</a>
+											<a onclick="invia()" class="form-button-submit button icon fa-envelope" style="width: 100%; ">Invia</a>
 										</div>
 									</div>
 								</form>
@@ -316,6 +313,23 @@
         </div>
 
 		<!-- Scripts -->
+		<script type="text/javascript">
+            function invia() {
+                var codice = "mailto:info@lescatole.it";
+                var subject = document.getElementById("subject").value;
+                var corpo = document.getElementById("corpo").value;
+
+                if(subject != "") {
+                    codice +="?subject=" + subject;
+                }
+                if(corpo != "") {
+                    codice +="&body=" + corpo;
+                }
+
+                location.href = codice;
+            }
+		</script>
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
