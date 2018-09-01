@@ -127,12 +127,8 @@
         var subject = document.getElementById("subject").value;
         var corpo = document.getElementById("corpo").value;
 
-        if(subject != "") {
-            codice +="?subject=" + subject;
-        }
-        if(corpo != "") {
-            codice +="&body=" + corpo;
-        }
+        codice +="?subject=" + subject;
+        codice +="&body=" + corpo;
 
         location.href = codice;
     }
