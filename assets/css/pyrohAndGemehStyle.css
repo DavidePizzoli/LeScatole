@@ -50,6 +50,13 @@
 	transform: rotate(10deg);
 }
 
+.staffBox { width: 100%; background-position: center; background-size: cover; }
+.staffBoxFiller { height: 300px; }
+.staffBoxText { background-color: rgba(255, 255, 255, 0.8); padding: 10px 0px; font-weight: bold; text-align: center; }
+.staffBoxName { height: 35px; line-height: 35px; font-size: 30px; }
+.staffBoxContact1 { height: 30px; line-height: 30px; font-size: 20px; }
+.staffBoxContact2 { height: 30px; line-height: 30px; font-size: 17px; }
+
 /* Footer */
 .contactList { font-weight: bold; border-radius: 5px; transition-duration: 0.4s; color: white; font-size: 20px; text-align: center; padding: 15px; background-color: orange; margin: 0px 0px 20px 0px !important; }
 .contactList:hover { background-color: #ed7b1e; }
