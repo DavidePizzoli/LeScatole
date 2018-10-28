@@ -2,47 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fe7b792-1ab3-4dd0-b595-90e66b927d92" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6176.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6178.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6179.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6180.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6186.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6194.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6198.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6200.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6216.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6218.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6219.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6220.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6221.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6222.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6223.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6226.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6227.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6228.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6229.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6230.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6231.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6232.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6235.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6237.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6238.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6239.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6240.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6381.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6382.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6383 2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6384.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6385.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6391.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6392.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6393.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6397.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6398.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6399.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/._IMG_6401.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6223.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6381.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6382.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6383 2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6384.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6385.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6391.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6392.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6393.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6397.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6398.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6399.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6401.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4998">
-              <caret line="294" column="8" lean-forward="false" selection-start-line="294" selection-start-column="8" selection-end-line="294" selection-end-column="8" />
+            <state relative-caret-position="-136">
+              <caret line="90" column="62" lean-forward="false" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -93,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="produzione.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="produzione.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/produzione.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -140,12 +114,12 @@
         <option value="$PROJECT_DIR$/assets/css/fadeIn.css" />
         <option value="$PROJECT_DIR$/pages/catalogo_standard.html" />
         <option value="$PROJECT_DIR$/pages/photo.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/catalogo.html" />
         <option value="$PROJECT_DIR$/pages/chi_siamo.html" />
         <option value="$PROJECT_DIR$/pages/contatti.html" />
         <option value="$PROJECT_DIR$/pages/personalizzazioni.html" />
         <option value="$PROJECT_DIR$/pages/produzione.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -159,9 +133,9 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="712" />
+    <option name="width" value="1215" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -307,17 +281,18 @@
       <workItem from="1535797804820" duration="25000" />
       <workItem from="1536756212933" duration="618000" />
       <workItem from="1538494315746" duration="68000" />
-      <workItem from="1540741116303" duration="1023000" />
+      <workItem from="1540741116303" duration="3017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45469000" />
+    <option name="totallyTimeSpent" value="47463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="712" y="0" width="1215" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10341151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.096969694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -490,14 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4998">
-          <caret line="294" column="8" lean-forward="false" selection-start-line="294" selection-start-column="8" selection-end-line="294" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/catalogo.html" />
     <entry file="file://$PROJECT_DIR$/pages/chi_siamo.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -531,6 +498,14 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="90" column="62" lean-forward="false" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
