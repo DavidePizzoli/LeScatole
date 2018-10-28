@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fe7b792-1ab3-4dd0-b595-90e66b927d92" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6223.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6381.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6382.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6383 2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6384.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6385.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6391.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6392.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6393.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6397.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6398.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6399.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prodotti/IMG_6401.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="5fe7b792-1ab3-4dd0-b595-90e66b927d92" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,12 +265,12 @@
       <workItem from="1535797804820" duration="25000" />
       <workItem from="1536756212933" duration="618000" />
       <workItem from="1538494315746" duration="68000" />
-      <workItem from="1540741116303" duration="3017000" />
+      <workItem from="1540741116303" duration="3033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47463000" />
+    <option name="totallyTimeSpent" value="47479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="712" y="0" width="1215" height="1047" extended-state="0" />
